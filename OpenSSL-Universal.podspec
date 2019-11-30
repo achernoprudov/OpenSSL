@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
     sp.ios.source_files        = 'ios/include/openssl/**/*.h'
     sp.ios.public_header_files = 'ios/include/openssl/**/*.h'
     sp.ios.header_dir          = 'openssl'
+    sp.ios.module_map          = 'ios/module.modulemap'
     sp.ios.preserve_paths      = 'ios/lib/libcrypto.a', 'ios/lib/libssl.a'
     sp.ios.vendored_libraries  = 'ios/lib/libcrypto.a', 'ios/lib/libssl.a'
 
