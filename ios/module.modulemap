@@ -1,0 +1,7 @@
+framework module X509CertificatesModule {
+  umbrella header "include/openssl/OpenSSL.h"
+  requires objc
+
+  export *
+  module * { export * }
+}
